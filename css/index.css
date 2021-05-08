@@ -1,0 +1,141 @@
+* {
+    color: black;
+}
+.cuerpo {
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.596);
+    position: absolute;
+    z-index: 1;
+    margin-left: 62%;
+    margin-top: 40px;   
+    border-radius: 10px;
+    color: black;
+}
+.titulo {
+    display: inline-flex;
+    padding: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    font-weight: 700;
+}
+.item-menu:hover {
+    color: rgb(47, 63, 16);
+    filter: drop-shadow(rgb(47, 63, 16) 2px 2px 5px);
+}
+.barra {
+    background-color: rgb(47, 63, 16);
+    width: 100%;
+    height: 20px;
+}
+
+.cards {
+    background-image: url('/img/madera.jpg');
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-attachment: fixed;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+.cards img {
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card-producto {
+    width: 220px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.596);
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.producto-cocina {
+    transform: rotate(-20deg);
+}
+.producto-living {
+    transform: rotate(10deg);
+}
+.producto-habitacion {
+    transform: rotate(-10deg);
+}
+.card-producto:hover {
+    transform: rotate(0deg);
+    filter: drop-shadow(rgb(47, 63, 16) 5px 5px 8px);
+}
+
+.titulo-card {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+/* GALERIA */
+.seccion-galeria {
+    
+    background-color: rgb(47, 63, 16);
+}
+.seccion-galeria-capa {
+    background-color: rgba(255, 255, 255, 0.596);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.seccion-galeria-uno img {
+    width: 250px;
+    height: 170px;
+    border: rgba(255, 255, 255, 0) 5px solid;
+    border-radius: 10px;
+}
+.seccion-galeria-uno img:hover {
+    transform: scale(1.5);
+}
+.seccion-galeria-uno {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.seccion-galeria-dos img {
+    width: 375px;
+    height: 170px;
+    border: rgba(255, 255, 255, 0) 5px solid;
+    border-radius: 10px;
+}
+.seccion-galeria-dos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.seccion-galeria-dos img:hover {
+    transform: scale(1.5);
+}
+
+.footer {
+    background-color: rgb(47, 63, 16);
+    padding-top: 300px;
+    
+}
+.final, .derechos {
+   display: flex;
+    justify-content: center; 
+}
+.linea {
+    
+    width: 1000px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.596);
+}
