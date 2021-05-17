@@ -1,0 +1,71 @@
+.posicion {
+    display: flex;
+    justify-content: center;
+}
+.cabecera {
+    position: static !important;
+    margin-top: 5px;
+    background-color: rgb(47, 63, 16);
+}
+.fondo {
+    background-image: url('/img/madera.jpg');
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.article-form {
+    display: flex;
+    justify-content: center;
+}
+.formulario {    
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.596);
+    width: 50%;
+    filter: drop-shadow(black 5px 5px 10px);
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+.dato {
+    margin-bottom: 30px;
+}
+.dato label {
+    font-weight: 600;
+}
+.dato input {
+    border-radius: 5px;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.dato select {
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+}
+.dato textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-form {
+    display: flex;
+    justify-content: center;
+}
+.btn-enviar {    
+    background-color: rgb(47, 63, 16);
+    color: rgba(255, 255, 255, 0.596);
+    font-weight: 800;
+    border: none;
+    width: 30%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+}
+.btn-enviar:hover {
+    color: rgb(237, 247, 217);
+}

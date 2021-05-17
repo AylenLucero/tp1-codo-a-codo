@@ -1,0 +1,16 @@
+.footer {
+    background-color: rgb(47, 63, 16);
+    padding-top: 300px;
+    
+}
+.final, .derechos {
+   display: flex;
+   justify-content: center; 
+   color: rgba(255, 255, 255, 0.596);
+}
+.linea {
+    
+    width: 1000px;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.596);
+}

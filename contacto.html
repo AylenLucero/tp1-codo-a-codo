@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/titulo.css"/>
+    <link rel="stylesheet" href="/css/contacto.css"/>
+    <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/aee6355307.css">
+    <title>Los Robles</title>
+</head>
+<body class="cuerpo">
+    <main>
+        <div class="fondo">
+        <header class="posicion">
+            <div class="cabecera">
+                <a href="index.html">
+                <img class="logo" src="/img/logo.png">
+                </a>
+                <div class="conjunto">
+                    <nav>
+                        <ul class="listatitulo">
+                            <a href="cocina.html">
+                                <li class="item">
+                                    Cocina
+                                </li>
+                            </a>
+                            <a href="living.html">
+                            <li class="item">
+                                Living
+                            </li>
+                            </a>
+                            <a href="habitacion.html">
+                            <li class="item item-ubicacion">
+                                Habitación
+                            </li>
+                            </a>
+                            <a href="contacto.html">
+                            <li class="item">
+                                Contacto
+                            </li>
+                            </a>
+                        </ul>
+                    </nav>                    
+                </div>
+            </div>
+        </header>
+        <article class="article-form">
+            <section class="formulario">
+                <form action="contacto.html">
+                    <div class="nombre dato">
+                        <label for="name">Nombre y apellido: </label><br>
+                        <input type="text" size="70" name="name" placeholder="Ingrese su nombre aqui...">
+                    </div> 
+                    <div class="dato">
+                        <label for="email">Email: </label><br>
+                        <input type="email" size="70" name="email" placeholder="Ingrese su email aqui...">
+                    </div> 
+                    <div class="dato">
+                        <label for="lista">Lista de precios que desea:</label><br>
+                        <select id="lista" name="lista">
+                            <option value="primaria">Cocina</option>
+                            <option value="secundaria">Living</option>
+                            <option value="terciario">Habitacion</option>
+                            <option value="universitario">Todas</option>
+                        </select>
+                    </div>
+                    <div class="dato">
+                        <label for="comentarios">Comentarios:</label><br>
+                        <textarea name="comentarios" ></textarea>
+                    </div>
+                    <div class="btn-form">
+                        <input type="submit" class="btn-enviar" value="Enviar">
+                    </div>
+                </form>
+            </section>
+        </article>
+        </div>
+        <footer class="footer">
+            <div class="final">
+               <div class="linea"></div>
+                
+            </div>
+            <p class="derechos">Derechos reservados</p>
+            
+        </footer>
+    </main>
+</body>
+</html>
