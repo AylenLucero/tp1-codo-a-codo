@@ -6,79 +6,51 @@
     <link rel="stylesheet" href="/css/titulo.css"/>
     <link rel="stylesheet" href="/css/productos.css"/>
     <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/media-query.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/aee6355307.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <title>Los Robles</title>
 </head>
 <body class="cuerpo">
     <main>
         <div class="primer-seccion">
-        <header>
-            <div class="fondo-segunda-capa">
-                <div class="cabecera">
-                    <a href="index.html">
-                    <img class="logo" src="/img/logo.png">
-                    </a>
-                    <div class="conjunto">
-                    <nav>
-                        <ul class="listatitulo">
-                            <a href="cocina.html">
-                                <li class="item item-ubicacion">
-                                    Cocina
-                                </li>
-                            </a>
-                            <a href="living.html">
-                            <li class="item">
-                                Living
-                            </li>
-                            </a>
-                            <a href="habitacion.html">
-                            <li class="item">
-                                Habitación
-                            </li>
-                            </a>
-                            <a href="contacto.html">
-                            <li class="item">
-                                Contacto
-                            </li>
-                            </a>
-                        </ul>
-                    </nav>
-                    
-                    </div>
-                </div>
-                <div class="segundo-menu">
-                        <hr>
-                        <ul class="listatitulo">                            
-                            <a href="#bajo-mesada">
-                                <li class="item ">
-                                    Mesada
-                                </li>
-                            </a>
-                            <a href="#isla">
-                            <li class="item">
-                                Isla
-                            </li>
-                            </a>
-                            <a href="#mesa">
-                            <li class="item">
-                                Mesa
-                            </li>
-                            </a>
-                            <a href="#silla">
-                                <li class="item">
-                                    Silla
-                                </li>
-                            </a>
-                            <a href="#alacena">
-                                <li class="item">
-                                    Alacena
-                                </li>
-                            </a>
-                        </ul>
-                </div>
+        <header class="fixed-top menu">
+          <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/img/logo.png" width="40" height="40" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav ">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle item item-ubicacion" href="cocina.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Cocina
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="#bajo-mesada">Bajo mesada</a></li>
+                    <li><a class="dropdown-item" href="#isla">Isla</a></li>
+                    <li><a class="dropdown-item" href="#mesa">Mesa</a></li>
+                    <li><a class="dropdown-item" href="#silla">Silla</a></li>
+                    <li><a class="dropdown-item" href="#alacena">Alacena</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link item" aria-current="page" href="living.html">Living</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link item" href="habitacion.html">Dormitorio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link item" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
             </div>
-        </header>
-        
+          </div>
+        </nav>
+        </header>        
         <article class="productos">
             <section class="section-principal">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, quod ducimus aliquid tempore quo dignissimos accusamus facere rem. Eos iure modi rem, delectus molestiae ea praesentium ratione voluptate ex dolores.</p>
@@ -86,7 +58,8 @@
                     </iframe>                
             </section>
         </div>  
-        <div class="barra" id="bajo-mesada"></div>  
+        <div class="barra" id="bajo-mesada"></div>
+        <div class="seccion-fondo">
             <section class="seccion-individual-productos" >
                 <h3>Bajo mesadas y mesadas</h3>
                 <div class="texto-foto-producto">
@@ -95,8 +68,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos possimus! A pariatur voluptas corporis similique odit cupiditate consectetur ullam tenetur mollitia necessitatibus veritatis repudiandae aspernatur dicta nostrum harum explicabo laborum quia adipisci, praesentium sunt, commodi ad maiores velit? Voluptate recusandae ut blanditiis corrupti, praesentium iure repudiandae id ipsa quasi, minima est aliquam quod doloribus error optio exercitationem placeat.</p>
                 </div>
                <div id="isla"></div> 
-            </section>
-            
+            </section>            
             <section class="seccion-individual-productos">
                 <h3>Islas</h3>
                 <div class="texto-foto-producto">
@@ -106,6 +78,7 @@
                 </div>
                 <div id="mesa"></div>
             </section>
+            
             <section class="seccion-individual-productos">
                 <h3>Mesas</h3>
                 <div class="texto-foto-producto">
@@ -125,13 +98,14 @@
                 <div id="alacena"></div>
             </section>
             <section class="seccion-individual-productos">
-                <h3>Alacena</h3>
+                <h3>Alacenas</h3>
                 <div class="texto-foto-producto">
                     <img src="/img/alacena.png"> 
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit laborum alias blanditiis    velit nihil beatae suscipit eos quidem non.
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos possimus! A pariatur voluptas corporis similique odit cupiditate consectetur ullam tenetur mollitia necessitatibus veritatis repudiandae aspernatur dicta nostrum harum explicabo laborum quia adipisci, praesentium sunt, commodi ad maiores velit? Voluptate recusandae ut blanditiis corrupti, praesentium iure repudiandae id ipsa quasi, minima est aliquam quod doloribus error optio exercitationem placeat.</p>                 
                 </div>
             </section>
+        </div>
         </article>
         <footer class="footer">
             <div class="final">
@@ -142,5 +116,6 @@
             
         </footer>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
 </html>        
