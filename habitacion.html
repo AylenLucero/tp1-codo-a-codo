@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/css/titulo.css"/>
     <link rel="stylesheet" href="/css/productos.css"/>
     <link rel="stylesheet" href="/css/footer.css"/>
+    <link rel="stylesheet" href="/css/media-query.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/aee6355307.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
 
@@ -17,7 +18,7 @@
             <header class="fixed-top menu">
               <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
-                  <a class="navbar-brand" href="#">
+                  <a class="navbar-brand" href="index.html">
                     <img src="/img/logo.png" width="40" height="40" alt="">
                   </a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,8 +42,7 @@
                           <li><a class="dropdown-item" href="#comoda">Comoda</a></li>
                           <li><a class="dropdown-item" href="#ropero">Ropero</a></li>
                         </ul>
-                      </li>              
-                      
+                      </li>    
                       <li class="nav-item">
                         <a class="nav-link item" href="contacto.html">Contacto</a>
                       </li>
@@ -55,7 +55,7 @@
         <article class="productos">
             <section class="section-principal">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis, quod ducimus aliquid tempore quo dignissimos accusamus facere rem. Eos iure modi rem, delectus molestiae ea praesentium ratione voluptate ex dolores.</p>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wEk5b1ZQNfA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/wEk5b1ZQNfA" title="YouTube video player" class=" iframe-video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
             </section>
         </div>  
         <div class="barra" id="cama"></div>  
@@ -100,13 +100,29 @@
         </div>
         </article>
         <footer class="footer">
-            <div class="final">
-               <div class="linea"></div>
-                
-            </div>
-            <p class="derechos">Derechos reservados</p>
-            
-        </footer>
+          <div class="descripcion">
+          <div class="content-foo">
+              <h5>Phone</h5>
+              <p>11364598</p>
+          </div>
+          <div class="content-foo">
+              <h5>Email</h5>
+              <p>usuario@gmail.com</p>
+          </div>
+          <div class="content-foo">
+              <h5>Location</h5>
+              <p>Av. Santa Fé, 4630</p>
+          </div>
+          </div>
+          <div class="mapa-footer">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.011882819051!2d-58.42798968477106!3d-34.578565880466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59b1da04859%3A0xbd3d9161bb8959c4!2sAv.%20Santa%20Fe%204630%2C%20C1425%20BHV%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1621476565422!5m2!1ses-419!2sar" width="850" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="final">
+             <div class="linea"></div>
+          </div>
+          <p class="derechos">Derechos reservados muebleria Los Nogales</p>
+          
+      </footer>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>

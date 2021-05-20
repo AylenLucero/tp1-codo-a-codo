@@ -101,6 +101,9 @@ a:link {
     transform: scale(1.5);
 }
 
+.header-media-query {
+    display: none;
+}
 
 .barra {
     background-color: rgb(47, 63, 16);

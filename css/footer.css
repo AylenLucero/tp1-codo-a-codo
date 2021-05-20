@@ -1,6 +1,6 @@
 .footer {
     background-color: rgb(47, 63, 16);
-    padding-top: 300px;
+    padding-top: 20px;
     
 }
 .final, .derechos {
@@ -8,9 +8,21 @@
    justify-content: center; 
    color: rgba(255, 255, 255, 0.596);
 }
-.linea {
-    
+.linea {    
     width: 1000px;
     height: 2px;
     background-color: rgba(255, 255, 255, 0.596);
+}
+.descripcion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+}
+.descripcion p, h5 {
+   color: rgba(255, 255, 255, 0.596); 
+}
+.mapa-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
